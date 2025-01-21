@@ -1,37 +1,42 @@
 {
-    "name": "plusinfolab/razorpay-cashier",
-    "description": "Laravel Cashier provides an expressive, fluent interface to Razorpay's subscription billing services.",
-    "keywords": ["laravel", "razorpay", "subscription", "billing"],
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/msonowal/laravel-razor-pay-cashier/issues",
-        "source": "https://github.com/msonowal/laravel-razor-pay-cashier"
-    },
-    "authors": [
-        {
-            "name": "Manash Sonowal",
-            "email": "manash149@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.2",
-        "razorpay/razorpay": "^2.9"
-    },
-    "autoload": {
-        "psr-4": {
-            "Msonowal\\Razorpay\\Cashier\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Msonowal\\Razorpay\\Cashier\\CashierServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "plusinfolab/razorpay-cashier",
+  "description": "Laravel Cashier provides an expressive, fluent interface to Razorpay's subscription billing services.",
+  "keywords": [
+    "laravel",
+    "razorpay",
+    "subscription",
+    "billing"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/msonowal/laravel-razor-pay-cashier/issues",
+    "source": "https://github.com/msonowal/laravel-razor-pay-cashier"
+  },
+  "authors": [
+    {
+      "name": "Aditya Jodhani",
+      "email": "adityajodhani18@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "razorpay/razorpay": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plusinfolab\\Razorpay\\Cashier\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Plusinfolab\\Razorpay\\Cashier\\CashierServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
